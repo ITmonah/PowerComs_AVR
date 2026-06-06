@@ -1,0 +1,20 @@
+{
+  "target": "PowerConsumption_Zone1",
+  "resample_frequency": "1H mean",
+  "horizon_hours": 24,
+  "season_length_hours": 24,
+  "n_backtesting_windows": 3,
+  "max_train_size_hours": 2160,
+  "candidate_models": [
+    "SeasonalNaive",
+    "SeasonalES",
+    "LinearRegression",
+    "RandomForest",
+    "LightGBM"
+  ],
+  "selected_from_task2": "SeasonalES",
+  "selected_from_task3": "LightGBM",
+  "final_best_by_backtesting_rmse": "LightGBM",
+  "data_start": "2017-01-01 00:00:00",
+  "data_end": "2017-12-30 23:00:00"
+}

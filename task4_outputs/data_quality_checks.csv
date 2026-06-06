@@ -1,0 +1,6 @@
+check,value
+rows_10min_raw,52416
+rows_hourly,8736
+missing_y_hourly,0
+duplicates_raw_after_clean,0
+freq_hourly_regular,True
