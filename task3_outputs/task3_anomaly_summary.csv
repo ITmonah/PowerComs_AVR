@@ -1,0 +1,4 @@
+method,n_anomalies
+Rolling z-score,0
+STL robust z-score,1626
+IsolationForest,172
